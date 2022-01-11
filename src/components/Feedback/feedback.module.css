@@ -1,0 +1,32 @@
+
+
+
+.control {
+    display: flex;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.controlList {
+    display: flex;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+
+.button {
+    padding-right: 20px;
+width: 100px;
+background-color: rgb(138, 230, 138);
+}
+
+
+.statistic {
+    display: flex;
+    flex-direction:column;
+}
+
+.statisticTitle {
+    margin-top: 20px;
+}
+
+
