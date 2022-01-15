@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
     return (
 <div>
 {options.map((el) =>(
-  <button key={el} type="button" name="{el}" onClick={() => {onLeaveFeedback(el)}}>{el}</button>
+  <button key={el} type="button" name="{el}" onClick={onLeaveFeedback}>{el}</button>
     ) )}
 
 </div>
